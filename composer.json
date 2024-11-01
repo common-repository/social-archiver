@@ -1,0 +1,16 @@
+{
+    "name": "gallib/social-archiver",
+    "description": "Save your social life",
+    "authors": [
+        {
+            "name": "Alain Pellaux",
+            "email": "alain@gallib.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SocialArchiver\\": "src/"
+        }
+    }
+}

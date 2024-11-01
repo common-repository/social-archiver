@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Archiver 1.0\n"
+"POT-Creation-Date: 2016-02-04 07:34+0100\n"
+"PO-Revision-Date: 2016-02-04 07:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alain Pellaux <alain@gallib.net>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/Import/TwitterImport.php:65
+msgid ""
+"Twitter API return a 401 error, please check your consumer key and consumer "
+"secret."
+msgstr ""
+"L'API Twitter renvoie une erreur 401, veuillez vérifier votre consumer key "
+"et votre consumer secret."
+
+#: src/Import/TwitterImport.php:67
+msgid "Twitter API return a 403 error, have you reached the limit ?"
+msgstr "L'API Twitter renvoie une erreur 403, avez-vous atteint la limite ?"
+
+#: src/Import/TwitterImport.php:70
+#, php-format
+msgid "Twitter API return a %1$d error, please reload and retry."
+msgstr ""
+"L'API Twitter renvoie une erreur %1$d, merci de recharger et de réessayer."
+
+#: src/Import/TwitterImport.php:151
+msgid "Archiving tweets"
+msgstr "Archivage des tweets"
+
+#: src/Import/TwitterImport.php:174
+msgid "Well done, import is done!"
+msgstr "Bien joué, l'importation est terminée!"
+
+#: src/Import/TwitterImport.php:281
+#, php-format
+msgid ""
+"%1$sArchiving in progress, don't leave this page! The page will reload in "
+"%2$s second(s)%3$s"
+msgstr ""
+"%1$sArchivage en cours, ne quittez pas cette page! La page se rechargera "
+"dans %2$s seconde(s)%3$s"
+
+#: src/PostType/TwitterPostType.php:43 src/PostType/TwitterPostType.php:44
+#: src/PostType/TwitterPostType.php:45 src/PostType/TwitterPostType.php:46
+#: src/Settings.php:94
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/PostType/TwitterPostType.php:47
+msgid "Add New"
+msgstr "Ajouter"
+
+#: src/PostType/TwitterPostType.php:48
+msgid "Add New Tweet"
+msgstr "Ajouter un tweet"
+
+#: src/PostType/TwitterPostType.php:49
+msgid "New Tweet"
+msgstr "Nouveau tweet"
+
+#: src/PostType/TwitterPostType.php:50
+msgid "Edit Tweet"
+msgstr "Editer un tweet"
+
+#: src/PostType/TwitterPostType.php:51
+msgid "View Tweet"
+msgstr "Voir le tweet"
+
+#: src/PostType/TwitterPostType.php:52
+msgid "All Tweets"
+msgstr "Tout les tweets"
+
+#: src/PostType/TwitterPostType.php:53
+msgid "Search Tweets"
+msgstr "Chercher des tweets"
+
+#: src/PostType/TwitterPostType.php:54
+msgid "Parent Tweets:"
+msgstr "Tweets parents:"
+
+#: src/PostType/TwitterPostType.php:55
+msgid "No tweet found."
+msgstr "Pas de tweet trouvé."
+
+#: src/PostType/TwitterPostType.php:56
+msgid "No tweets found in Trash."
+msgstr "Pas de tweets trouvés dans la poubelle."
+
+#: src/Settings.php:37
+#, php-format
+msgid "Every %1$d minutes"
+msgstr "Chaque %1$d minutes"
+
+#: src/Settings.php:95
+msgid "Instagram"
+msgstr "Instagram"
+
+#: src/Settings.php:96
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: src/Settings.php:131 src/Settings.php:133
+msgid "Soon"
+msgstr "Bientôt"
+
+#: src/Settings/TwitterSettings.php:32
+msgid "Twitter Settings"
+msgstr "Réglages Twitter"
+
+#: src/Settings/TwitterSettings.php:39
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/Settings/TwitterSettings.php:46
+msgid "Manual archiving"
+msgstr "Archivage manuel"
+
+#: src/Settings/TwitterSettings.php:67
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: src/Settings/TwitterSettings.php:76
+msgid "Consumer key"
+msgstr "Consumer key"
+
+#: src/Settings/TwitterSettings.php:85
+msgid "Consumer secret"
+msgstr "Consumer secret"
+
+#: src/Settings/TwitterSettings.php:96
+msgid "Enable automatic archiving"
+msgstr "Activer l'archivage automatique"
+
+#: src/Settings/TwitterSettings.php:105
+msgid "Cron interval"
+msgstr "Interval du cron"
+
+#: src/Settings/TwitterSettings.php:125
+#, php-format
+msgid ""
+"Go on %1$s to create a new application. Once done click on \"Keys and Access "
+"Tokens\" tab to get your consumer key and consumer secret."
+msgstr ""
+"Allez sur %1$s pour créer une nouvelle application. Une fois fait, cliquez "
+"sur l'onglet \"Keys and Access Tokens\" afin de voir votre consumer key et "
+"votre consumer secret."
+
+#: src/Settings/TwitterSettings.php:130
+msgid ""
+"You can set the \"Access Level\" to Read only by clicking on \"modify app "
+"permissions\" on the same tab."
+msgstr ""
+"Vous pouvez régler l'\"Access Level\" sur Read only en cliquant sur \"modify "
+"app permissions\" sur le même onglet."
+
+#: src/Settings/TwitterSettings.php:143
+msgid "How the plugin will archive your tweets"
+msgstr "Comment le plugin va archiver vos tweets"
+
+#: src/Settings/TwitterSettings.php:162
+msgid ""
+"To archive your tweets manually please click on the button below, please "
+"note that Twitter API only allows to retrieve the last 3200 tweets."
+msgstr ""
+"Pour archiver vos tweets manuellement, merci de cliquer sur le bouton ci-"
+"dessous. Veuillez noter que l'API Twitter n'autorise la récupération que des "
+"3200 derniers tweets."
+
+#: src/Settings/TwitterSettings.php:163
+msgid ""
+"Manual archiving could take time, please be patient and dont't leave this "
+"page until the import is done."
+msgstr ""
+"L'archivage manuel peut prendre du temps, soyez patient et ne quitter pas "
+"cette page avant que l'importation ne soit terminée."
+
+#: src/Settings/TwitterSettings.php:164
+msgid "Archive all tweets"
+msgstr "Archiver tout les tweets"
+
+#: src/Settings/TwitterSettings.php:240
+#, php-format
+msgid "Next archiving in %1$d minute"
+msgid_plural "Next archiving in %1$d minutes"
+msgstr[0] "Prochain archivage dans %1$d minute"
+msgstr[1] "Prochain archivage dans %1$d minutes"
+
+#~ msgid ""
+#~ "Twitter API return a 401 error, please check your consumer key and "
+#~ "consumer secret"
+#~ msgstr ""
+#~ "L'API Twitter renvoie une erreur 401, veuillez vérifier votre consumer "
+#~ "key et votre consumer secret"
